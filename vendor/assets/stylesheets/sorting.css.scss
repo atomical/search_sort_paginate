@@ -1,0 +1,12 @@
+.table th a.current.asc {
+  background-image: asset-url("asc.gif", image);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center right;
+  padding-right: 16px !important; }
+.table th a.current.desc {
+  background-image: asset-url("desc.gif", image);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center right;
+  padding-right: 16px !important; }
