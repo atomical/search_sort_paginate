@@ -15,5 +15,8 @@ module SearchSortPaginate
       %w[asc desc].include?(params[:direction]) ? params[:direction] : 'desc'
     end
 
+    def page_size
+      params[:page].to_i || 8
+    end
   end
 end
