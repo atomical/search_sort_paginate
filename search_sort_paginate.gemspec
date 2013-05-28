@@ -13,5 +13,6 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.add_dependency 'activesupport'
   s.add_dependency 'rails'
-  s.add_dependency "railties"
+  s.add_dependency 'railties'
+  s.add_dependency 'kaminari'
 end
