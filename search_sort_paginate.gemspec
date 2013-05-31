@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Adam Hallett']
   s.email       = ['adam.t.hallett@gmail.com']
+  s.homepage    = 'http://github.com/atomical/search_sort_paginate'
   s.summary     = %q{An easy way to do vanilla search, sort, and paginate on a collection.}
   s.description = %q{SearchSortPaginate has convenience methods that hook into your controllers.}
   s.files       = Dir['lib/**/*'] + Dir['vendor/**/*'] + ['README.md']
